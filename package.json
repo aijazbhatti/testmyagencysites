@@ -1,0 +1,23 @@
+{
+  "name": "primary",
+  "version": "1.0.0",
+  "description": "Official Domain: **[www.nayaasoft.com](https://www.nayaasoft.com)**   Specialization: **High-Performance Web Development & Cross-Platform Mobile App Development (Flutter iOS & Android)**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aijazbhatti/testmyagencysites.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aijazbhatti/testmyagencysites/issues"
+  },
+  "homepage": "https://github.com/aijazbhatti/testmyagencysites#readme",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
