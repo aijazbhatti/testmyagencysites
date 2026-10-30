@@ -1,0 +1,143 @@
+/* ==========================================================================
+   NAYAASOFT RESPONSIVE STYLES
+   ========================================================================== */
+
+@media (max-width: 1080px) {
+  .g4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .fg {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+  .process-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .hg, .cg, .est-row {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #FFFFFF;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 20px 5%;
+    gap: 12px;
+    border-bottom: 1px solid var(--border-light);
+    box-shadow: 0 16px 30px rgba(0, 0, 0, 0.08);
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+
+  nav.open {
+    display: flex;
+    animation: fadeInDown 0.25s ease forwards;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 4px;
+  }
+
+  nav a:not(.btn), .ddb {
+    padding: 12px 0;
+    width: 100%;
+    font-size: 1.05rem;
+    border-bottom: 1px solid #F1F5F9;
+  }
+
+  .ddm {
+    position: static;
+    box-shadow: none;
+    border: 1px solid #E2E8F0;
+    background: #F8FAFC;
+    margin-top: 6px;
+  }
+
+  .btn {
+    text-align: center;
+  }
+
+  .g3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .process-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .g2, .g3, .g4, .process-grid, .fg, .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    padding: 50px 0 65px;
+  }
+
+  .hero-stats {
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .row .btn {
+    width: 100%;
+  }
+
+  .mockup-floating-pill {
+    display: none;
+  }
+
+  .whatsapp-float {
+    width: 52px;
+    height: 52px;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .whatsapp-float svg {
+    width: 28px;
+    height: 28px;
+  }
+
+  #top {
+    bottom: 84px;
+    right: 24px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .cp {
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .rv {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
